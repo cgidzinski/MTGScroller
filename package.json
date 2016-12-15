@@ -1,0 +1,28 @@
+{
+  "name": "lance_server",
+  "version": "1.0.0",
+  "description": "Lance",
+  "main": "server.js",
+  "dependencies": {
+    "ejs" : "~0.8.5",
+    "body-parser": "^1.0.2",
+    "csv-parse": "^1.1.7",
+    "express": "^4.0.0",
+    "morgan": "^1.7.0",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgidzinski/Lance.git"
+  },
+  "author": "Colin Gidzinski & Dennis Pacewicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evg31337/Lance/issues"
+  },
+  "homepage": "https://github.com/evg31337/Lance#readme"
+}
